@@ -57,12 +57,12 @@ const Invoice = () => {
 
    const printRef = useRef(null)
 
-   const handleDownloadPdf = () => {
+   const handleDownloadPdf = async () => {
       const element = printRef.current;
       if(!element){
          return;
       }
-      
+
    }
 
    return (
